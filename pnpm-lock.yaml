@@ -8,6 +8,9 @@ importers:
 
   .:
     devDependencies:
+      '@bastidood/eslint-plugin-imsort':
+        specifier: ^0.10.1
+        version: 0.10.1
       '@eslint/compat':
         specifier: ^1.2.5
         version: 1.4.0(eslint@9.36.0(jiti@2.6.0))
@@ -76,6 +79,9 @@ importers:
         version: 7.1.7(@types/node@22.18.7)(jiti@2.6.0)(lightningcss@1.30.1)
 
 packages:
+
+  '@bastidood/eslint-plugin-imsort@0.10.1':
+    resolution: {integrity: sha512-LZHgWADupficSqNpQH0fl1F4cz5kItVfLmJkqvCmEr0y8UbRD/4caCtDfMQWmtHSScRaL63PhntmOOtwTJhWWA==}
 
   '@esbuild/aix-ppc64@0.25.10':
     resolution: {integrity: sha512-0NFWnA+7l41irNuaSVlLfgNT12caWJVLzp5eAVhZ0z1qpxbockccEt3s+149rE64VUI3Ml2zt8Nv5JVc4QXTsw==}
@@ -973,6 +979,9 @@ packages:
   isexe@2.0.0:
     resolution: {integrity: sha512-RHxMLp9lnKHGHRng9QFhRCMbYAcVpn69smSGcq3f36xjgVVWThj4qqLbTLlq7Ssj8B+fIQ1EuCEGI2lKsyQeIw==}
 
+  itertools@2.5.0:
+    resolution: {integrity: sha512-4ghJEXkRGkw4veNQhfO0cLY8+zePMXbe9wGt3ckSVFtrQVyyoKCUESaG2HsjuEfidVtuIEj1Dt1BlmTL3GUWFg==}
+
   jiti@2.6.0:
     resolution: {integrity: sha512-VXe6RjJkBPj0ohtqaO8vSWP3ZhAKo66fKrFNCll4BTcwljPLz03pCbaNKfzGP5MbrCYcbJ7v0nOYYwUzTEIdXQ==}
     hasBin: true
@@ -1484,6 +1493,10 @@ packages:
     resolution: {integrity: sha512-B58NGBEoc8Y9MWWCQGl/gq9xBCe4IiKM0a2x7GZdQKOW5Exr8S1W24J6OgM1njK8xCRGvAJIL/MxXHf6SkmQKQ==}
 
 snapshots:
+
+  '@bastidood/eslint-plugin-imsort@0.10.1':
+    dependencies:
+      itertools: 2.5.0
 
   '@esbuild/aix-ppc64@0.25.10':
     optional: true
@@ -2320,6 +2333,8 @@ snapshots:
       '@types/estree': 1.0.8
 
   isexe@2.0.0: {}
+
+  itertools@2.5.0: {}
 
   jiti@2.6.0: {}
 

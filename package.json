@@ -14,6 +14,7 @@
 		"lint": "prettier --check . && eslint ."
 	},
 	"devDependencies": {
+		"@bastidood/eslint-plugin-imsort": "^0.10.1",
 		"@eslint/compat": "^1.2.5",
 		"@eslint/css": "0.9.0",
 		"@eslint/js": "^9.22.0",
