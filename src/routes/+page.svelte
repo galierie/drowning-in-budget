@@ -137,6 +137,10 @@
 <p>Only typhoon and flooding data from 2021 to 2025 were considered because the data is most in line with the available flood control project data. Further, only the typhoon and flooding data which were available via the Asian Disaster Reduction Center and released by NDRRMC were considered due to their availability.</p>
 <br />
 
+<h2 class="mb-6 text-2xl">Preprocessing</h2>
+<p>The data sets were checked for any irrelevant or invalid data (e.g. removing data on class suspensions). Further, improper formatting resulting from the iLovePDF processing were also fixed (e.g. empty rows or columns being created).</p>
+<br />
+
 <h1 class="my-8 text-center text-3xl">References</h1>
 <div class="pl-6">
 	<p class="-indent-6">
