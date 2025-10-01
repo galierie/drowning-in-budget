@@ -21,6 +21,18 @@
 </ol>
 <br />
 
+<h2 class="mb-6 text-2xl">Objectives</h2>
+<ul class="list-inside list-disc">
+	<li>
+		Identify areas in which flood control projects are concentrated in terms of number and budget
+	</li>
+	<li>
+		Determine whether flood control projects are effective in truly curbing different forms of
+		damages
+	</li>
+</ul>
+<br />
+
 <h2 class="mb-6 text-2xl">Proposed Solutions</h2>
 <p>
 	The group aims to analyze flood control projects from a data-driven perspective using the public
@@ -79,6 +91,14 @@
 		class="text-blue-400 underline">Dataset</a
 	>
 </h1>
+<p class="text-center">
+	Link to Dataset: <a
+		target="_blank"
+		href="https://docs.google.com/spreadsheets/d/1L5P4t8nBkBhUKDnGK6RVSqPo_8ItdH7pC6P_bCUHJoY/edit?gid=0#gid=0"
+		class="text-blue-400 underline"
+		>https://docs.google.com/spreadsheets/d/1L5P4t8nBkBhUKDnGK6RVSqPo_8ItdH7pC6P_bCUHJoY/edit?gid=0#gid=0</a
+	>
+</p>
 <br />
 
 <p>From:</p>
@@ -115,6 +135,13 @@
 					href="https://www.adrc.asia/latest_disaster.php?country%5B%5D=608&event%5B%5D=8&event%5B%5D=10&event%5B%5D=11&event%5B%5D=21&event%5B%5D=22&event%5B%5D=28&event%5B%5D=30&event%5B%5D=31&event%5B%5D=32&word=&duration_start=&duration_end=&order=1&per_page=25"
 					class="text-blue-400 underline">Asian Disaster Reduction Center</a
 				> since the Situational Reports webpage in NDRRMC is inaccessible.
+			</li>
+			<li>
+				<b>Dataset Size</b>
+				<ul class="ml-12 list-inside list-disc">
+					<li>Casualties, Injuries, or Missing: 719 entries</li>
+					<li>Infrastructure Damage: 5030 entries</li>
+				</ul>
 			</li>
 		</ul>
 	</li>
