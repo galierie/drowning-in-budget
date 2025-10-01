@@ -133,6 +133,10 @@
 <p>The data set released by the Philippine government through sumbongsapangulo.ph, and reformatted into a spreadsheet format in Kaggle, was downloaded directly.  On the other hand, the second data set was processed by retrieving typhoon reports in PDF format from the National Risk Reduction and Management Council through the Asian Disaster Reduction Center. The group used iLovePDF to extract data of the (1) casualties and (2) damage to infrastructure in the form of a spreadsheet.  Each spreadsheet is then combined into one main spreadsheet to be used by the group for processing. Some cleanup is also done as after conversion, some errors exist, such as headers being repeated or text being broken up into multiple cells.</p>
 <br />
 
+<h2 class="mb-6 text-2xl">Sampling Methods</h2>
+<p>Only typhoon and flooding data from 2021 to 2025 were considered because the data is most in line with the available flood control project data. Further, only the typhoon and flooding data which were available via the Asian Disaster Reduction Center and released by NDRRMC were considered due to their availability.</p>
+<br />
+
 <h1 class="my-8 text-center text-3xl">References</h1>
 <div class="pl-6">
 	<p class="-indent-6">
