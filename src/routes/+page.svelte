@@ -124,6 +124,13 @@
 					class="text-blue-400 underline">Asian Disaster Reduction Center</a
 				> since the Situational Reports webpage in NDRRMC is inaccessible.
 			</li>
+			<li>
+				<b>Dataset Size</b>
+				<ul class="ml-12 list-inside list-disc">
+					<li>Casualties, Injuries, or Missing: 719 entries</li>
+					<li>Infrastructure Damage: 5030 entries</li>
+				</ul>
+			</li>
 		</ul>
 	</li>
 </ul>
