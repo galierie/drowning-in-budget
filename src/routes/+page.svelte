@@ -21,3 +21,10 @@
 <p>Actual experiences of citizens this rainy season also point to these projects’ ineffectiveness, leading to intensifying calls for accountability both online in social media and through major protests in the streets in recent months.</p>
 <p>As public pressure toward truly effective flood control mounts, it is essential to gain data-driven insights on how completed projects affect statistics such as casualties, injuries, and amount of damage to infrastructure.</p>
 <br />
+
+<h2 class="text-2xl mb-6">Hypotheses</h2>
+<ul class="list-disc list-inside">
+  <li>Null Hypothesis: There is a positive correlation between damage reduction and flood control budget allocated per province.</li>
+  <li>Alternative Hypothesis: A greater flood control budget does not have a positive correlation to damage reduction after flooding.</li>
+</ul>
+<br />
