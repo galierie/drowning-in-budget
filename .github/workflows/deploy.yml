@@ -6,6 +6,10 @@ on:
   push:
     branches: main
 
+permissions:
+  contents: read
+  pages: write
+
 jobs:
   code-quality:
     runs-on: ubuntu-latest
@@ -28,3 +32,23 @@ jobs:
       - name: Run Linters
         run: pnpm lint
         # declare .env variables here
+  
+  deploy:
+    if: ${{ github.event_name == 'push' }}
+    needs: code-quality
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Build Website
+        run: pnpm build
+      - name: Set-up Pages
+        uses: actions/configure-pages@v4
+      - name: Upload Artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: build
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
