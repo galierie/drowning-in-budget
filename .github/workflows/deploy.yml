@@ -12,6 +12,9 @@ permissions:
 
 jobs:
   build:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -34,15 +37,6 @@ jobs:
         # declare .env variables here
       - name: Build Website
         run: pnpm build
-
-  deploy:
-    if: ${{ github.event_name == 'push' }}
-    needs: build
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    steps:
       - name: Set-up Pages
         uses: actions/configure-pages@v4
       - name: Upload Artifact
