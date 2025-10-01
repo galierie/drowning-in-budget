@@ -10,3 +10,7 @@
   <li>How does the amount of budget allocated to a particular area correlate with damage, such as casualties, injuries, and infrastructure damage, caused by flooding?</li>
 </ol>
 <br />
+
+<h2 class="text-2xl mb-6">Proposed Solutions</h2>
+<p>The group aims to analyze flood control projects from a data-driven perspective using the public dataset released by the government and correlate these to reports from the National Disaster Risk Reduction and Management Council (NDRRMC) to determine the potential tangible effect of these completed projects. These insights may be used not just to support calls for government accountability if the data shows that projects have been effective, but they may also provide next steps on what the government should invest into to truly improve disaster resilience.</p>
+<br />
