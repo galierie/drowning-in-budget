@@ -79,6 +79,14 @@
 		class="text-blue-400 underline">Dataset</a
 	>
 </h1>
+<p class="text-center">
+	Link to Dataset: <a
+		target="_blank"
+		href="https://docs.google.com/spreadsheets/d/1L5P4t8nBkBhUKDnGK6RVSqPo_8ItdH7pC6P_bCUHJoY/edit?gid=0#gid=0"
+		class="text-blue-400 underline"
+		>https://docs.google.com/spreadsheets/d/1L5P4t8nBkBhUKDnGK6RVSqPo_8ItdH7pC6P_bCUHJoY/edit?gid=0#gid=0</a
+	>
+</p>
 <br />
 
 <p>From:</p>
