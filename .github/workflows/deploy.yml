@@ -12,10 +12,7 @@ permissions:
   id-token: write
 
 jobs:
-  build:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+  code-quality:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -35,6 +32,27 @@ jobs:
         run: pnpm fmt
       - name: Run Linters
         run: pnpm lint
+        # declare .env variables here
+  
+  deploy:
+    if: ${{ github.event_name == 'push' && github.ref == 'main' }}
+    needs: code-quality
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Install Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: latest
+      - name: Install pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          run_install: false
+      - name: Install Dependencies
+        run: pnpm install
         # declare .env variables here
       - name: Build Website
         run: pnpm build
