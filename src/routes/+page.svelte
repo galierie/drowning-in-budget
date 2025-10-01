@@ -98,6 +98,7 @@
 					class="text-blue-400 underline">flood control project list</a
 				> recently released by the government.
 			</li>
+			<li><b>Dataset Size</b>: 9855 data points/projects</li>
 		</ul>
 	</li>
 	<li>
