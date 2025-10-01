@@ -98,6 +98,7 @@
 					class="text-blue-400 underline">flood control project list</a
 				> recently released by the government.
 			</li>
+			<li><b>Dataset Size</b>: 9855 data points/projects</li>
 		</ul>
 	</li>
 	<li>
@@ -126,6 +127,36 @@
 	assigned contractors, (6) date of commencement, and (7) date of completion. The second data set is
 	from the NDRRMC which contains typhoon census data from 2021 to 2025. Each data point has fields
 	that describe the typhoon’s total casualties and damage to infrastructure.
+</p>
+<br />
+
+<h2 class="mb-6 text-2xl">Data Collection Process</h2>
+<p>
+	The data set released by the Philippine government through sumbongsapangulo.ph, and reformatted
+	into a spreadsheet format in Kaggle, was downloaded directly. On the other hand, the second data
+	set was processed by retrieving typhoon reports in PDF format from the National Risk Reduction and
+	Management Council through the Asian Disaster Reduction Center. The group used iLovePDF to extract
+	data of the (1) casualties and (2) damage to infrastructure in the form of a spreadsheet. Each
+	spreadsheet is then combined into one main spreadsheet to be used by the group for processing.
+	Some cleanup is also done as after conversion, some errors exist, such as headers being repeated
+	or text being broken up into multiple cells.
+</p>
+<br />
+
+<h2 class="mb-6 text-2xl">Sampling Methods</h2>
+<p>
+	Only typhoon and flooding data from 2021 to 2025 were considered because the data is most in line
+	with the available flood control project data. Further, only the typhoon and flooding data which
+	were available via the Asian Disaster Reduction Center and released by NDRRMC were considered due
+	to their availability.
+</p>
+<br />
+
+<h2 class="mb-6 text-2xl">Preprocessing</h2>
+<p>
+	The data sets were checked for any irrelevant or invalid data (e.g. removing data on class
+	suspensions). Further, improper formatting resulting from the iLovePDF processing were also fixed
+	(e.g. empty rows or columns being created).
 </p>
 <br />
 
