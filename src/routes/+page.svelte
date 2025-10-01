@@ -29,23 +29,23 @@
 </ul>
 <br />
 
-<h1 class="text-3xl text-center mt-8 mb-4"><a href="https://docs.google.com/spreadsheets/d/1L5P4t8nBkBhUKDnGK6RVSqPo_8ItdH7pC6P_bCUHJoY/edit?gid=0#gid=0" class="underline text-blue-400">Dataset</a></h1>
+<h1 class="text-3xl text-center mt-8 mb-4"><a target="_blank" href="https://docs.google.com/spreadsheets/d/1L5P4t8nBkBhUKDnGK6RVSqPo_8ItdH7pC6P_bCUHJoY/edit?gid=0#gid=0" class="underline text-blue-400">Dataset</a></h1>
 <br />
 
 <p>From:</p>
 <ul class="list-disc list-inside">
   <li>
-    Department of Public Works and Highways <a href="http://kaggle.com/datasets/bwandowando/dpwh-flood-control-projects" class="underline text-blue-400">Flood Control Projects (Kaggle)</a>
+    Department of Public Works and Highways <a target="_blank" href="http://kaggle.com/datasets/bwandowando/dpwh-flood-control-projects" class="underline text-blue-400">Flood Control Projects (Kaggle)</a>
 
     <ul class="list-disc list-inside ml-6">
-      <li>The dataset is taken from the <a href="https://sumbongsapangulo.ph/" class="underline text-blue-400">flood control project list</a> recently released by the government.</li>
+      <li>The dataset is taken from the <a target="_blank" href="https://sumbongsapangulo.ph/" class="underline text-blue-400">flood control project list</a> recently released by the government.</li>
     </ul>
   </li>
   <li>
     Situational Reports for the Combined Effects of Various Typhoons
 
     <ul class="list-disc list-inside ml-6">
-      <li>These reports are from <a href="https://ndrrmc.gov.ph/disaster-reports.html" class="underline text-blue-400">NDRRMC</a>, but are searched via the <a href="https://www.adrc.asia/latest_disaster.php?country%5B%5D=608&event%5B%5D=8&event%5B%5D=10&event%5B%5D=11&event%5B%5D=21&event%5B%5D=22&event%5B%5D=28&event%5B%5D=30&event%5B%5D=31&event%5B%5D=32&word=&duration_start=&duration_end=&order=1&per_page=25" class="underline text-blue-400">Asian Disaster Reduction Center</a> since the Situational Reports webpage in NDRRMC is inaccessible.</li>
+      <li>These reports are from <a target="_blank" href="https://ndrrmc.gov.ph/disaster-reports.html" class="underline text-blue-400">NDRRMC</a>, but are searched via the <a href="https://www.adrc.asia/latest_disaster.php?country%5B%5D=608&event%5B%5D=8&event%5B%5D=10&event%5B%5D=11&event%5B%5D=21&event%5B%5D=22&event%5B%5D=28&event%5B%5D=30&event%5B%5D=31&event%5B%5D=32&word=&duration_start=&duration_end=&order=1&per_page=25" class="underline text-blue-400">Asian Disaster Reduction Center</a> since the Situational Reports webpage in NDRRMC is inaccessible.</li>
     </ul>
   </li>
 </ul>
@@ -54,8 +54,8 @@
 
 <h1 class="text-3xl text-center my-8">References</h1>
 <div class="pl-6">
-  <p class="-indent-6">Bacelonia, W. (2025, August 19). <i>Senate probe on flood control bares ghost projects, favoritism.</i> Philippine News Agency. <a href="https://www.pna.gov.ph/articles/1256868" class="underline text-blue-400">https://www.pna.gov.ph/articles/1256868</a></p>
-  <p class="-indent-6">Bündnis Entwicklung Hilft. (2025, September 25). <i>The WorldRiskReport.</i> WeltRisikoBericht. <a href="https://weltrisikobericht.de/worldriskreport/" class="underline text-blue-400">https://weltrisikobericht.de/worldriskreport/</a></p>
-  <p class="-indent-6">Du, S. (2025, August 18). <i>What's a flood control project, anyway?</i> Rappler. <a href="https://www.rappler.com/newsbreak/iq/what-is-flood-control-project/" class="underline text-blue-400">https://www.rappler.com/newsbreak/iq/what-is-flood-control-project/</a></p>
+  <p class="-indent-6">Bacelonia, W. (2025, August 19). <i>Senate probe on flood control bares ghost projects, favoritism.</i> Philippine News Agency. <a target="_blank" href="https://www.pna.gov.ph/articles/1256868" class="underline text-blue-400">https://www.pna.gov.ph/articles/1256868</a></p>
+  <p class="-indent-6">Bündnis Entwicklung Hilft. (2025, September 25). <i>The WorldRiskReport.</i> WeltRisikoBericht. <a target="_blank" href="https://weltrisikobericht.de/worldriskreport/" class="underline text-blue-400">https://weltrisikobericht.de/worldriskreport/</a></p>
+  <p class="-indent-6">Du, S. (2025, August 18). <i>What's a flood control project, anyway?</i> Rappler. <a target="_blank" href="https://www.rappler.com/newsbreak/iq/what-is-flood-control-project/" class="underline text-blue-400">https://www.rappler.com/newsbreak/iq/what-is-flood-control-project/</a></p>
   <br />
 </div>
