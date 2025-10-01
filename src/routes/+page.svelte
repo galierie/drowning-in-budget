@@ -51,3 +51,11 @@
 </ul>
 <p>The project mainly utilized two data sets. The first data set was recently released by the Department of Public Works and Highways that contains completed flood control projects from July 2022 to May 2025.  For every project, there are fields that describe its (1) address and location, (2) associated district engineering office, (3) name and description, (4) allocated budget, (5) assigned contractors, (6) date of commencement, and (7) date of completion.  The second data set is from the NDRRMC which contains typhoon census data from 2021 to 2025.  Each data point has fields that describe the typhoon’s total casualties and damage to infrastructure.</p>
 <br />
+
+<h1 class="text-3xl text-center my-8">References</h1>
+<div class="pl-6">
+  <p class="-indent-6">Bacelonia, W. (2025, August 19). <i>Senate probe on flood control bares ghost projects, favoritism.</i> Philippine News Agency. <a href="https://www.pna.gov.ph/articles/1256868" class="underline text-blue-400">https://www.pna.gov.ph/articles/1256868</a></p>
+  <p class="-indent-6">Bündnis Entwicklung Hilft. (2025, September 25). <i>The WorldRiskReport.</i> WeltRisikoBericht. <a href="https://weltrisikobericht.de/worldriskreport/" class="underline text-blue-400">https://weltrisikobericht.de/worldriskreport/</a></p>
+  <p class="-indent-6">Du, S. (2025, August 18). <i>What's a flood control project, anyway?</i> Rappler. <a href="https://www.rappler.com/newsbreak/iq/what-is-flood-control-project/" class="underline text-blue-400">https://www.rappler.com/newsbreak/iq/what-is-flood-control-project/</a></p>
+  <br />
+</div>
