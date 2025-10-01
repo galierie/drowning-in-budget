@@ -31,3 +31,23 @@
 
 <h1 class="text-3xl text-center mt-8 mb-4"><a href="https://docs.google.com/spreadsheets/d/1L5P4t8nBkBhUKDnGK6RVSqPo_8ItdH7pC6P_bCUHJoY/edit?gid=0#gid=0" class="underline text-blue-400">Dataset</a></h1>
 <br />
+
+<p>From:</p>
+<ul class="list-disc list-inside">
+  <li>
+    Department of Public Works and Highways <a href="http://kaggle.com/datasets/bwandowando/dpwh-flood-control-projects" class="underline text-blue-400">Flood Control Projects (Kaggle)</a>
+
+    <ul class="list-disc list-inside ml-6">
+      <li>The dataset is taken from the <a href="https://sumbongsapangulo.ph/" class="underline text-blue-400">flood control project list</a> recently released by the government.</li>
+    </ul>
+  </li>
+  <li>
+    Situational Reports for the Combined Effects of Various Typhoons
+
+    <ul class="list-disc list-inside ml-6">
+      <li>These reports are from <a href="https://ndrrmc.gov.ph/disaster-reports.html" class="underline text-blue-400">NDRRMC</a>, but are searched via the <a href="https://www.adrc.asia/latest_disaster.php?country%5B%5D=608&event%5B%5D=8&event%5B%5D=10&event%5B%5D=11&event%5B%5D=21&event%5B%5D=22&event%5B%5D=28&event%5B%5D=30&event%5B%5D=31&event%5B%5D=32&word=&duration_start=&duration_end=&order=1&per_page=25" class="underline text-blue-400">Asian Disaster Reduction Center</a> since the Situational Reports webpage in NDRRMC is inaccessible.</li>
+    </ul>
+  </li>
+</ul>
+<p>The project mainly utilized two data sets. The first data set was recently released by the Department of Public Works and Highways that contains completed flood control projects from July 2022 to May 2025.  For every project, there are fields that describe its (1) address and location, (2) associated district engineering office, (3) name and description, (4) allocated budget, (5) assigned contractors, (6) date of commencement, and (7) date of completion.  The second data set is from the NDRRMC which contains typhoon census data from 2021 to 2025.  Each data point has fields that describe the typhoon’s total casualties and damage to infrastructure.</p>
+<br />
