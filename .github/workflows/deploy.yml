@@ -33,7 +33,7 @@ jobs:
       - name: Run Linters
         run: pnpm lint
         # declare .env variables here
-  
+
   deploy:
     if: ${{ github.event_name == 'push' && github.ref == 'main' }}
     needs: code-quality
