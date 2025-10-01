@@ -11,7 +11,7 @@ permissions:
   pages: write
 
 jobs:
-  code-quality:
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -32,27 +32,17 @@ jobs:
       - name: Run Linters
         run: pnpm lint
         # declare .env variables here
+      - name: Build Website
+        run: pnpm build
 
   deploy:
     if: ${{ github.event_name == 'push' }}
-    needs: code-quality
+    needs: build
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-      - name: Install Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: latest
-      - name: Install pnpm
-        uses: pnpm/action-setup@v4
-        with:
-          run_install: false
-      - name: Build Website
-        run: pnpm build
       - name: Set-up Pages
         uses: actions/configure-pages@v4
       - name: Upload Artifact
