@@ -21,6 +21,18 @@
 </ol>
 <br />
 
+<h2 class="mb-6 text-2xl">Objectives</h2>
+<ul class="list-inside list-disc">
+	<li>
+		Identify areas in which flood control projects are concentrated in terms of number and budget
+	</li>
+	<li>
+		Determine whether flood control projects are effective in truly curbing different forms of
+		damages
+	</li>
+</ul>
+<br />
+
 <h2 class="mb-6 text-2xl">Proposed Solutions</h2>
 <p>
 	The group aims to analyze flood control projects from a data-driven perspective using the public
