@@ -1,3 +1,14 @@
+<script>
+	import regionProjects from '$lib/assets/graphs/viz1 (0).png';
+	import provinceProjects from '$lib/assets/graphs/viz1 (1).png';
+	import regionProjectCosts from '$lib/assets/graphs/viz1 (2).png';
+	import provinceProjectCosts from '$lib/assets/graphs/viz1 (3).png';
+
+	import budgetCasualtyDamage from '$lib/assets/graphs/viz2.png';
+
+	import hypothesis from '$lib/assets/graphs/hypothesis.png';
+</script>
+
 <h1 class="mb-8 text-center text-3xl">
 	Drowning in Budget: How Flood Control Budget Correlates to Damage Caused by Flooding
 </h1>
@@ -187,7 +198,34 @@
 </p>
 <br />
 
-<h1 class="my-8 text-center text-3xl">References</h1>
+<h2 class="mb-6 text-2xl">Exploratory Data Analysis</h2>
+
+<h3 class="mb-4 text-xl ">Visualization I</h3>
+<p>This visualization answers the question: What provinces and regions have the most flood control projects in terms of number and cost?</p>
+<br />
+<p>Bar charts were made to display which provinces and regions had the most flood control projects in terms of number and cost.</p>
+<br />
+<div class="flex justify-center mb-4"><img src={regionProjects} alt="Number of Projects per Region" /></div>
+<div class="flex justify-center mb-4"><img src={provinceProjects} alt="Number of Projects per Province" /></div>
+<div class="flex justify-center mb-4"><img src={regionProjectCosts} alt="Total Cost of Projects per Region" /></div>
+<div class="flex justify-center mb-4"><img src={provinceProjectCosts} alt="Total Cost of Projects per Province" /></div>
+
+<h3 class="mb-4 text-xl">Visualization II</h3>
+<p>How does the amount of budget allocated to a particular area correlate with damage, such as casualties, and infrastructure damage, caused by flooding?</p>
+<br />
+<p>A scatter plot was created to compare casualties, infrastructure damage, and the cumulative budget which has been allocated to each province, with each circle representing one province, and the size of the circle representing casualties.</p>
+<br />
+<div class="flex justify-center mb-4"><img src={budgetCasualtyDamage} alt="Damages (in PHP) vs Budget, per Province, Emphasized Size via Casualty" /></div>
+
+<h3 class="mb-4 text-xl">Hypothesis Testing</h3>
+<p>Linear regression was used for hypothesis testing because the independent variable, cumulative budget allocated to flood control projects, and the dependent variable, infrastructure damage, are both quantitative. Regression was done where the budgets and infrastructure damage across all provinces were aggregated. In total, there were also 12 data points here corresponding to the 12 weather incidents. Regression found a p-value of 0.1996 which led to the hypothesis NOT being rejected.</p>
+<br />
+<div class="flex justify-center mb-4"><img src={hypothesis} alt="Cost of Infrastructure Damage vs Cumulative Budget for All Provinces" /></div>
+
+<h1 class="mt-30 mb-8 text-center text-3xl">About Us</h1>
+
+
+<h1 class="mt-30 mb-8 text-center text-3xl">References</h1>
 <div class="pl-6">
 	<p class="-indent-6">
 		Bacelonia, W. (2025, August 19). <i
