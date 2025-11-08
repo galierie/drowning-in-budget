@@ -6,6 +6,10 @@
 
 	import budgetCasualtyDamage from '$lib/assets/graphs/viz2.png';
 
+	import nutshellDamage from '$lib/assets/graphs/nutshell_damage.jpg';
+	import nutshellBudget from '$lib/assets/graphs/nutshell_budget.jpg';
+	import nutshellCasualties from '$lib/assets/graphs/nutshell_casualties.jpg';
+
 	import hypothesis from '$lib/assets/graphs/hypothesis.png';
 </script>
 
@@ -199,6 +203,22 @@
 <br />
 
 <h2 class="mb-6 text-2xl">Exploratory Data Analysis</h2>
+
+<h3 class="mb-4 text-xl ">Flood Control Projects Matter More for Certain Provinces Over Others</h3>
+<p>Billions are spent toward flood control projects nationwide, but creating more projects does not always correlate to tangible effects. The nutshell plot is a map of correlations describing the scale and severity of the following indicators: casualties, budget spent towards flood control projects, and monetary value of infrastructure damages. These correlations were colored in per region on a gradient of cold to warm, with cold having the least correlations and warm being the greatest correlations.</p>
+<br />
+<div class="flex justify-center mb-4">
+	<p>Correlation between Budget and Number of Projects</p>
+	<img src={nutshellBudget} alt="Correlation between Budget and Number of Projects" />
+</div>
+<div class="flex justify-center mb-4">
+	<p>Correlation between Casualties and Number of Projects</p>
+	<img src={nutshellCasualties} alt="Correlation between Casualties and Number of Projects" />
+</div>
+<div class="flex justify-center mb-4">
+	<p>Correlation between Damage and Number of Projects</p>
+	<img src={nutshellDamage} alt="Correlation between Budget and Number of Projects" />
+</div>
 
 <h3 class="mb-4 text-xl ">Visualization I</h3>
 <p>This visualization answers the question: What provinces and regions have the most flood control projects in terms of number and cost?</p>
