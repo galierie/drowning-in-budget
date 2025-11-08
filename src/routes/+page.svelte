@@ -1,4 +1,6 @@
 <script>
+	import { asset } from '$app/paths';
+
 	import regionProjects from '$lib/assets/graphs/viz1 (0).png';
 	import provinceProjects from '$lib/assets/graphs/viz1 (1).png';
 	import regionProjectCosts from '$lib/assets/graphs/viz1 (2).png';
@@ -218,15 +220,15 @@
 <br />
 <div class="mb-4 flex flex-col justify-center">
 	<p>Correlation between Budget and Number of Projects</p>
-	<img src={nutshellBudget} alt="Correlation between Budget and Number of Projects" />
+	<img src={asset(nutshellBudget)} alt="Correlation between Budget and Number of Projects" />
 </div>
 <div class="mb-4 flex flex-col justify-center">
 	<p>Correlation between Casualties and Number of Projects</p>
-	<img src={nutshellCasualties} alt="Correlation between Casualties and Number of Projects" />
+	<img src={asset(nutshellCasualties)} alt="Correlation between Casualties and Number of Projects" />
 </div>
 <div class="mb-4 flex flex-col justify-center">
 	<p>Correlation between Damage and Number of Projects</p>
-	<img src={nutshellDamage} alt="Correlation between Budget and Number of Projects" />
+	<img src={asset(nutshellDamage)} alt="Correlation between Budget and Number of Projects" />
 </div>
 
 <h3 class="mb-4 text-xl">Visualization I</h3>
@@ -241,16 +243,16 @@
 </p>
 <br />
 <div class="mb-4 flex justify-center">
-	<img src={regionProjects} alt="Number of Projects per Region" />
+	<img src={asset(regionProjects)} alt="Number of Projects per Region" />
 </div>
 <div class="mb-4 flex justify-center">
-	<img src={provinceProjects} alt="Number of Projects per Province" />
+	<img src={asset(provinceProjects)} alt="Number of Projects per Province" />
 </div>
 <div class="mb-4 flex justify-center">
-	<img src={regionProjectCosts} alt="Total Cost of Projects per Region" />
+	<img src={asset(regionProjectCosts)} alt="Total Cost of Projects per Region" />
 </div>
 <div class="mb-4 flex justify-center">
-	<img src={provinceProjectCosts} alt="Total Cost of Projects per Province" />
+	<img src={asset(provinceProjectCosts)} alt="Total Cost of Projects per Province" />
 </div>
 
 <h3 class="mb-4 text-xl">Visualization II</h3>
@@ -267,7 +269,7 @@
 <br />
 <div class="mb-4 flex justify-center">
 	<img
-		src={budgetCasualtyDamage}
+		src={asset(budgetCasualtyDamage)}
 		alt="Damages (in PHP) vs Budget, per Province, Emphasized Size via Casualty"
 	/>
 </div>
@@ -284,7 +286,7 @@
 <br />
 <div class="mb-4 flex justify-center">
 	<img
-		src={hypothesis}
+		src={asset(hypothesis)}
 		alt="Cost of Infrastructure Damage vs Cumulative Budget for All Provinces"
 	/>
 </div>
