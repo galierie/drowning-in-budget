@@ -11,6 +11,8 @@
 	import nutshellCasualties from '$lib/assets/graphs/nutshell_casualties.jpg';
 
 	import hypothesis from '$lib/assets/graphs/hypothesis.png';
+
+	import Member from '$lib/features/Member.svelte';
 </script>
 
 <h1 class="mb-8 text-center text-3xl">
@@ -204,18 +206,18 @@
 
 <h2 class="mb-6 text-2xl">Exploratory Data Analysis</h2>
 
-<h3 class="mb-4 text-xl ">Flood Control Projects Matter More for Certain Provinces Over Others</h3>
+<h3 class="mb-4 text-xl">Flood Control Projects Matter More for Certain Provinces Over Others</h3>
 <p>Billions are spent toward flood control projects nationwide, but creating more projects does not always correlate to tangible effects. The nutshell plot is a map of correlations describing the scale and severity of the following indicators: casualties, budget spent towards flood control projects, and monetary value of infrastructure damages. These correlations were colored in per region on a gradient of cold to warm, with cold having the least correlations and warm being the greatest correlations.</p>
 <br />
-<div class="flex justify-center mb-4">
+<div class="flex justify-center mb-4 flex-col">
 	<p>Correlation between Budget and Number of Projects</p>
 	<img src={nutshellBudget} alt="Correlation between Budget and Number of Projects" />
 </div>
-<div class="flex justify-center mb-4">
+<div class="flex justify-center mb-4 flex-col">
 	<p>Correlation between Casualties and Number of Projects</p>
 	<img src={nutshellCasualties} alt="Correlation between Casualties and Number of Projects" />
 </div>
-<div class="flex justify-center mb-4">
+<div class="flex justify-center mb-4 flex-col">
 	<p>Correlation between Damage and Number of Projects</p>
 	<img src={nutshellDamage} alt="Correlation between Budget and Number of Projects" />
 </div>
@@ -243,7 +245,28 @@
 <div class="flex justify-center mb-4"><img src={hypothesis} alt="Cost of Infrastructure Damage vs Cumulative Budget for All Provinces" /></div>
 
 <h1 class="mt-30 mb-8 text-center text-3xl">About Us</h1>
-
+<div class="">
+	<Member
+		name="Eriene Galinato"
+		github="galierie"
+		description="Eriene is a 3rd year computer science student from UP Diliman's Department of Computer Science who loves software development."
+	></Member>
+	<Member
+		name="Sidney Lance Fernando"
+		github="slcfernando"
+		description="Lance is a 3rd year computer science student interested in software dev, writing, and running."
+	></Member>
+	<Member
+		name="Daniel Dean Ognita"
+		github="Orion2304"
+		description="Dean is a 3rd year student of BS Computer Science with interests in the following fields: Gaming, Optimization, and The Fine Arts."
+	></Member>
+	<Member
+		name="Gabriel Ian Carl Matias"
+		github="geybb"
+		description="Gabe is a 3rd year in the BS Computer Science degree program who loves music, gaming, and everything in between."
+	></Member>
+</div>
 
 <h1 class="mt-30 mb-8 text-center text-3xl">References</h1>
 <div class="pl-6">
