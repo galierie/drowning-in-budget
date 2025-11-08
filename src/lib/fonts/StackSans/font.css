@@ -1,31 +1,31 @@
 @layer base {
-  @font-face {
-    font-family: StackSans;
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src:
-      local('StackSans'),
-      url('$lib/fonts/StackSans/Regular.ttf') format('truetype');
-  }
+	@font-face {
+		font-family: StackSans;
+		font-style: normal;
+		font-weight: 400;
+		font-display: swap;
+		src:
+			local('StackSans'),
+			url('$lib/fonts/StackSans/Regular.ttf') format('truetype');
+	}
 
-  @font-face {
-    font-family: StackSans;
-    font-style: normal;
-    font-weight: 550;
-    font-display: swap;
-    src:
-      local('StackSans'),
-      url('$lib/fonts/StackSans/SemiBold.ttf') format('truetype');
-  }
+	@font-face {
+		font-family: StackSans;
+		font-style: normal;
+		font-weight: 550;
+		font-display: swap;
+		src:
+			local('StackSans'),
+			url('$lib/fonts/StackSans/SemiBold.ttf') format('truetype');
+	}
 
-  @font-face {
-    font-family: StackSans;
-    font-style: normal;
-    font-weight: 700;
-    font-display: swap;
-    src:
-      local('StackSans'),
-      url('$lib/fonts/StackSans/Bold.ttf') format('truetype');
-  }
+	@font-face {
+		font-family: StackSans;
+		font-style: normal;
+		font-weight: 700;
+		font-display: swap;
+		src:
+			local('StackSans'),
+			url('$lib/fonts/StackSans/Bold.ttf') format('truetype');
+	}
 }

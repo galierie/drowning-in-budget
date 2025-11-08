@@ -10,10 +10,10 @@
 	<link rel="icon" href={favicon} />
 </svelte:head>
 
-<img src={background} alt="" class="-z-100 absolute top-0 w-full" />
+<img src={background} alt="" class="absolute top-0 -z-100 w-full" />
 
 <main class="bg-linear-to-b from-0% via-olive-haze-500 via-10% to-olive-haze-950 text-foreground">
-	<div class="pt-150 mx-10 pb-4">
+	<div class="mx-10 pt-150 pb-4">
 		{@render children?.()}
 	</div>
 </main>
