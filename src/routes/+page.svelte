@@ -228,6 +228,15 @@
 <h1 class="mt-30 mb-8 text-center text-3xl">References</h1>
 <div class="pl-6">
 	<p class="-indent-6">
+		Castro, P. (2024, October 24). <i>Philippines races to reach stranded as storm's death toll rises</i>. Phys.org.
+		<a 
+			target="_blank"
+			href="https://phys.org/news/2024-10-philippines-stranded-storm-death-toll.html"
+			class="text-blue-400 underline"
+			>https://phys.org/news/2024-10-philippines-stranded-storm-death-toll.html</a
+		>
+	</p>
+	<p class="-indent-6">
 		Bacelonia, W. (2025, August 19). <i
 			>Senate probe on flood control bares ghost projects, favoritism.</i
 		>
