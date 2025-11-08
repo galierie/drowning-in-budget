@@ -12,7 +12,7 @@
 <h1 class="mb-8 text-center text-3xl">
 	Drowning in Budget: How Flood Control Budget Correlates to Damage Caused by Flooding
 </h1>
-<p class="text-center">Submitted by: CS 132 25.1 WFV Group 1</p>
+<p class="text-center">Submitted by: <b>CS 132 25.1 WFV Group 1</b></p>
 <p><b>Topic</b>: Flood Control Projects</p>
 <p>
 	<b>Sustainable Development Goal</b>: (11) Sustainable Cities and Communities: Urban Planning,
@@ -99,14 +99,14 @@
 	<a
 		target="_blank"
 		href="https://docs.google.com/spreadsheets/d/1L5P4t8nBkBhUKDnGK6RVSqPo_8ItdH7pC6P_bCUHJoY/edit?gid=0#gid=0"
-		class="text-blue-400 underline">Dataset</a
+		class="text-olive-haze-200 underline">Dataset</a
 	>
 </h1>
 <p class="text-center">
 	Link to Dataset: <a
 		target="_blank"
 		href="https://docs.google.com/spreadsheets/d/1L5P4t8nBkBhUKDnGK6RVSqPo_8ItdH7pC6P_bCUHJoY/edit?gid=0#gid=0"
-		class="text-blue-400 underline"
+		class="text-olive-haze-200 underline"
 		>https://docs.google.com/spreadsheets/d/1L5P4t8nBkBhUKDnGK6RVSqPo_8ItdH7pC6P_bCUHJoY/edit?gid=0#gid=0</a
 	>
 </p>
@@ -118,7 +118,7 @@
 		Department of Public Works and Highways <a
 			target="_blank"
 			href="http://kaggle.com/datasets/bwandowando/dpwh-flood-control-projects"
-			class="text-blue-400 underline">Flood Control Projects (Kaggle)</a
+			class="text-olive-haze-200 underline">Flood Control Projects (Kaggle)</a
 		>
 
 		<ul class="ml-6 list-inside list-disc">
@@ -126,7 +126,7 @@
 				The dataset is taken from the <a
 					target="_blank"
 					href="https://sumbongsapangulo.ph/"
-					class="text-blue-400 underline">flood control project list</a
+					class="text-olive-haze-200 underline">flood control project list</a
 				> recently released by the government.
 			</li>
 			<li><b>Dataset Size</b>: 9855 data points/projects</li>
@@ -140,11 +140,11 @@
 				These reports are from <a
 					target="_blank"
 					href="https://ndrrmc.gov.ph/disaster-reports.html"
-					class="text-blue-400 underline">NDRRMC</a
+					class="text-olive-haze-200 underline">NDRRMC</a
 				>, but are searched via the
 				<a
 					href="https://www.adrc.asia/latest_disaster.php?country%5B%5D=608&event%5B%5D=8&event%5B%5D=10&event%5B%5D=11&event%5B%5D=21&event%5B%5D=22&event%5B%5D=28&event%5B%5D=30&event%5B%5D=31&event%5B%5D=32&word=&duration_start=&duration_end=&order=1&per_page=25"
-					class="text-blue-400 underline">Asian Disaster Reduction Center</a
+					class="text-olive-haze-200 underline">Asian Disaster Reduction Center</a
 				> since the Situational Reports webpage in NDRRMC is inaccessible.
 			</li>
 			<li>
@@ -232,7 +232,7 @@
 		<a 
 			target="_blank"
 			href="https://phys.org/news/2024-10-philippines-stranded-storm-death-toll.html"
-			class="text-blue-400 underline"
+			class="text-olive-haze-200 underline"
 			>https://phys.org/news/2024-10-philippines-stranded-storm-death-toll.html</a
 		>
 	</p>
@@ -244,7 +244,7 @@
 		<a
 			target="_blank"
 			href="https://www.pna.gov.ph/articles/1256868"
-			class="text-blue-400 underline">https://www.pna.gov.ph/articles/1256868</a
+			class="text-olive-haze-200 underline">https://www.pna.gov.ph/articles/1256868</a
 		>
 	</p>
 	<p class="-indent-6">
@@ -252,7 +252,7 @@
 		<a
 			target="_blank"
 			href="https://weltrisikobericht.de/worldriskreport/"
-			class="text-blue-400 underline">https://weltrisikobericht.de/worldriskreport/</a
+			class="text-olive-haze-200 underline">https://weltrisikobericht.de/worldriskreport/</a
 		>
 	</p>
 	<p class="-indent-6">
@@ -260,7 +260,7 @@
 		<a
 			target="_blank"
 			href="https://www.rappler.com/newsbreak/iq/what-is-flood-control-project/"
-			class="text-blue-400 underline"
+			class="text-olive-haze-200 underline"
 			>https://www.rappler.com/newsbreak/iq/what-is-flood-control-project/</a
 		>
 	</p>

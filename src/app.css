@@ -1,1 +1,3 @@
+@import url('$lib/fonts/StackSans/font.css') layer(base);
 @import 'tailwindcss';
+@import './lib/theme.css' layer(theme);
