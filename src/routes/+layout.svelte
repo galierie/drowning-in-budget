@@ -1,4 +1,6 @@
 <script lang="ts">
+	import { asset } from '$app/paths';
+
 	import '../app.css';
 	import favicon from '$lib/assets/favicon.svg';
 	import background from '$lib/assets/flood.jpg';
@@ -10,7 +12,7 @@
 	<link rel="icon" href={favicon} />
 </svelte:head>
 
-<img src={background} alt="" class="absolute top-0 -z-100 w-full" />
+<img src={asset(background)} alt="" class="absolute top-0 -z-100 w-full" />
 
 <main class="bg-linear-to-b from-0% via-olive-haze-500 via-5% to-olive-haze-950 text-foreground">
 	<div class="mx-10 pt-150 pb-4">
