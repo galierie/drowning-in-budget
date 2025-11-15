@@ -224,7 +224,10 @@
 </div>
 <div class="mb-4 flex flex-col justify-center">
 	<p>Correlation between Casualties and Number of Projects</p>
-	<img src={asset(nutshellCasualties)} alt="Correlation between Casualties and Number of Projects" />
+	<img
+		src={asset(nutshellCasualties)}
+		alt="Correlation between Casualties and Number of Projects"
+	/>
 </div>
 <div class="mb-4 flex flex-col justify-center">
 	<p>Correlation between Damage and Number of Projects</p>
