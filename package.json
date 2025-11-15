@@ -11,7 +11,7 @@
 		"fix": "eslint --fix . && prettier --experimental-cli --write .",
 		"fmt": "prettier --experimental-cli --check .",
 		"lint": "pnpm --parallel /^lint:/",
-		"lint:sv": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+		"lint:sv": "svelte-check --tsconfig ./tsconfig.json",
 		"lint:es": "eslint --cache ."
 	},
 	"devDependencies": {
