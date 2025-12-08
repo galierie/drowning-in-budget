@@ -14,94 +14,93 @@
 
 	import hypothesis from '$lib/assets/graphs/hypothesis.png';
 
+	import ListIcon from './(ui)/ListIcon.svelte';
 	import Member from '$lib/features/Member.svelte';
 </script>
 
-<h1 class="mb-8 text-center text-3xl">
-	Drowning in Budget: How Flood Control Budget Correlates to Damage Caused by Flooding
-</h1>
-<p class="text-center">Submitted by: <b>CS 132 25.1 WFV Group 1</b></p>
-<p><b>Topic</b>: Flood Control Projects</p>
-<p>
-	<b>Sustainable Development Goal</b>: (11) Sustainable Cities and Communities: Urban Planning,
-	Infrastructure Resilience, Environmental Sustainability
-</p>
-<br />
+<section class="my-18">
+	<h2 class="mb-6 text-4xl font-specialelite font-bold text-center">Research Questions/Problems</h2>
+	<ul class="lg:flex justify-center items-center text-center">
+		<ListIcon icon="material-symbols:flood-outline">
+			What provinces and regions have the most flood control projects in terms of number and cost?
+		</ListIcon>
+		<ListIcon icon="material-symbols:money-bag-outline">
+			How does the amount of budget allocated to a particular area correlate with damage, such as casualties, injuries, and infrastructure damage, caused by flooding?
+		</ListIcon>
+	</ul>
+</section>
 
-<h2 class="mb-6 text-2xl">Research Questions/Problems</h2>
-<ol class="list-inside list-decimal">
-	<li>
-		What provinces and regions have the most flood control projects in terms of number and cost?
-	</li>
-	<li>
-		How does the amount of budget allocated to a particular area correlate with damage, such as
-		casualties, injuries, and infrastructure damage, caused by flooding?
-	</li>
-</ol>
-<br />
+<section class="my-18">
+	<h2 class="mb-6 text-4xl font-specialelite font-bold text-center">Objectives</h2>
+	<ul class="lg:flex justify-center items-center text-center">
+		<ListIcon icon="material-symbols:location-on-outline">
+			Identify areas in which flood control projects are concentrated in terms of number and budget
+		</ListIcon>
+		<ListIcon icon="material-symbols:folder-copy-outline-rounded">
+			Determine whether flood control projects are effective in truly curbing different forms of
+			damages
+		</ListIcon>
+	</ul>
+</section>
 
-<h2 class="mb-6 text-2xl">Objectives</h2>
-<ul class="list-inside list-disc">
-	<li>
-		Identify areas in which flood control projects are concentrated in terms of number and budget
-	</li>
-	<li>
-		Determine whether flood control projects are effective in truly curbing different forms of
-		damages
-	</li>
-</ul>
-<br />
+<section class="my-18">
+	<h2 class="mb-6 text-4xl font-specialelite font-bold text-center">Proposed Solutions</h2>
+	<p class="lg:px-25 md:px-15 px-0 indent-12">
+		The group aims to analyze flood control projects from a data-driven perspective using the public
+		dataset released by the government and correlate these to reports from the National Disaster Risk
+		Reduction and Management Council (NDRRMC) to determine the potential tangible effect of these
+		completed projects. These insights may be used not just to support calls for government
+		accountability if the data shows that projects have been effective, but they may also provide next
+		steps on what the government should invest into to truly improve disaster resilience.
+	</p>
+</section>
 
-<h2 class="mb-6 text-2xl">Proposed Solutions</h2>
-<p>
-	The group aims to analyze flood control projects from a data-driven perspective using the public
-	dataset released by the government and correlate these to reports from the National Disaster Risk
-	Reduction and Management Council (NDRRMC) to determine the potential tangible effect of these
-	completed projects. These insights may be used not just to support calls for government
-	accountability if the data shows that projects have been effective, but they may also provide next
-	steps on what the government should invest into to truly improve disaster resilience.
-</p>
-<br />
+<section class="my-18">
+	<h2 class="mb-6 text-4xl font-specialelite font-bold text-center">Background</h2>
+	<div class="lg:px-25 md:px-15 px-0 *:indent-12">
+		<p>
+			The Philippines consistently ranks among the most disaster prone countries in the world. The 2025
+			World Risk Report listed the nation as the highest in disaster risk, particularly due to heavy
+			exposure to river and coastal flooding across the entire archipelago (Bündnis Entwicklung Hilft,
+			2025).
+		</p>
+		<br />
+		<p>
+			Disasters cannot necessarily be prevented, but their impact on people can be mitigated through
+			infrastructure, planning, and other measures. The government has supposedly invested in flood
+			control projects to improve river control, water drainage and storage, sediment control, and other
+			forms of protection from flooding (Du, 2025). However, these projects have been mired with
+			corruption, with the government admitting that many of these are “ghost” projects which have never
+			actually been completed (Bacelonia, 2025).
+		</p>
+		<br />
+		<p>
+			Actual experiences of citizens this rainy season also point to these projects’ ineffectiveness,
+			leading to intensifying calls for accountability both online in social media and through major
+			protests in the streets in recent months.
+		</p>
+		<br />
+		<p>
+			As public pressure toward truly effective flood control mounts, it is essential to gain
+			data-driven insights on how completed projects affect statistics such as casualties, injuries, and
+			amount of damage to infrastructure.
+		</p>
+	</div>
+</section>
 
-<h2 class="mb-6 text-2xl">Background</h2>
-<p>
-	The Philippines consistently ranks among the most disaster prone countries in the world. The 2025
-	World Risk Report listed the nation as the highest in disaster risk, particularly due to heavy
-	exposure to river and coastal flooding across the entire archipelago (Bündnis Entwicklung Hilft,
-	2025).
-</p>
-<p>
-	Disasters cannot necessarily be prevented, but their impact on people can be mitigated through
-	infrastructure, planning, and other measures. The government has supposedly invested in flood
-	control projects to improve river control, water drainage and storage, sediment control, and other
-	forms of protection from flooding (Du, 2025). However, these projects have been mired with
-	corruption, with the government admitting that many of these are “ghost” projects which have never
-	actually been completed (Bacelonia, 2025).
-</p>
-<p>
-	Actual experiences of citizens this rainy season also point to these projects’ ineffectiveness,
-	leading to intensifying calls for accountability both online in social media and through major
-	protests in the streets in recent months.
-</p>
-<p>
-	As public pressure toward truly effective flood control mounts, it is essential to gain
-	data-driven insights on how completed projects affect statistics such as casualties, injuries, and
-	amount of damage to infrastructure.
-</p>
-<br />
-
-<h2 class="mb-6 text-2xl">Hypotheses</h2>
-<ul class="list-inside list-disc">
-	<li>
-		Null Hypothesis: There is a positive correlation between damage reduction and flood control
-		budget allocated per province.
-	</li>
-	<li>
-		Alternative Hypothesis: A greater flood control budget does not have a positive correlation to
-		damage reduction after flooding.
-	</li>
-</ul>
-<br />
+<section class="my-18">
+	<h2 class="mb-6 text-4xl font-specialelite font-bold text-center">Hypotheses</h2>
+	<ul class="lg:flex justify-center items-center text-center">
+		<ListIcon icon="material-symbols:chart-data-outline">
+			Null Hypothesis: There is a positive correlation between damage reduction and flood control
+			budget allocated per province.
+		</ListIcon>
+		<ListIcon icon="material-symbols:money-off-rounded">
+			Alternative Hypothesis: A greater flood control budget does not have a positive correlation to
+			damage reduction after flooding.
+		</ListIcon>
+	</ul>
+</section>
 
 <h1 class="mt-8 mb-4 text-center text-3xl">
 	<a
