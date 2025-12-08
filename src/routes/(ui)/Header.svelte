@@ -1,6 +1,4 @@
 <script>
-	import { asset } from '$app/paths';
-
 	import flood from '$lib/assets/flood.jpg';
 </script>
 
