@@ -1,6 +1,4 @@
 <script>
-	import { asset } from '$app/paths';
-
 	import regionProjects from '$lib/assets/graphs/viz1 (0).jpg';
 	import provinceProjects from '$lib/assets/graphs/viz1 (1).jpg';
 	import regionProjectCosts from '$lib/assets/graphs/viz1 (2).jpg';
@@ -260,7 +258,7 @@
 
 			<div class="items-center justify-center xl:flex">
 				<img
-					src={asset(nutshellBudget)}
+					src={nutshellBudget}
 					alt="Correlation between Budget and Number of Projects"
 					class="h-screen w-fit"
 				/>
@@ -290,7 +288,7 @@
 
 			<div class="items-center justify-center xl:flex">
 				<img
-					src={asset(nutshellCasualties)}
+					src={nutshellCasualties}
 					alt="Correlation between Casualties and Number of Projects"
 					class="h-screen w-fit"
 				/>
@@ -323,7 +321,7 @@
 
 			<div class="items-center justify-center xl:flex">
 				<img
-					src={asset(nutshellDamage)}
+					src={nutshellDamage}
 					alt="Correlation between Budget and Number of Projects"
 					class="h-screen w-fit"
 				/>
@@ -365,14 +363,14 @@
 
 			<div class="mb-4 flex flex-col justify-center">
 				<div class="my-6 flex flex-col items-center">
-					<img src={asset(regionProjects)} alt="Number of Projects per Region" />
+					<img src={regionProjects} alt="Number of Projects per Region" />
 					<p class="px-0 text-center text-xl md:px-15 lg:px-25">
 						<b>Figure</b>: Number of Projects per Region
 					</p>
 				</div>
 
 				<div class="my-6 flex flex-col items-center">
-					<img src={asset(provinceProjects)} alt="Number of Projects per Province" />
+					<img src={provinceProjects} alt="Number of Projects per Province" />
 					<p class="px-0 text-center text-xl md:px-15 lg:px-25">
 						<b>Figure</b>: Number of Projects per Province
 					</p>
@@ -393,14 +391,14 @@
 
 			<div class="mb-4 flex flex-col justify-center">
 				<div class="my-6 flex flex-col items-center">
-					<img src={asset(regionProjectCosts)} alt="Total Cost of Projects per Region" />
+					<img src={regionProjectCosts} alt="Total Cost of Projects per Region" />
 					<p class="px-0 text-center text-xl md:px-15 lg:px-25">
 						<b>Figure</b>: Total Cost of Projects per Region
 					</p>
 				</div>
 
 				<div class="my-6 flex flex-col items-center">
-					<img src={asset(provinceProjectCosts)} alt="Total Cost of Projects per Province" />
+					<img src={provinceProjectCosts} alt="Total Cost of Projects per Province" />
 					<p class="px-0 text-center text-xl md:px-15 lg:px-25">
 						<b>Figure</b>: Total Cost of Projects per Province
 					</p>
@@ -432,7 +430,7 @@
 		<br />
 
 		<img
-			src={asset(budgetCasualtyDamage)}
+			src={budgetCasualtyDamage}
 			alt="Damages (in PHP) vs Budget, per Province, Emphasized Size via Casualty"
 		/>
 		<p class="px-0 text-2xl md:px-15 lg:px-25">
@@ -466,7 +464,7 @@
 		</p>
 		<br />
 		<img
-			src={asset(hypothesis)}
+			src={hypothesis}
 			alt="Cost of Infrastructure Damage vs Cumulative Budget for All Provinces"
 		/>
 		<p class="px-0 text-2xl md:px-15 lg:px-25">
