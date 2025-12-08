@@ -30,7 +30,7 @@
 
 	<div class="absolute top-0 right-0 -z-100 flex h-full items-center justify-end">
 		<img
-			src={asset(flood)}
+			src={flood}
 			alt="child swimming in floodwaters"
 			class="h-full object-cover object-center"
 		/>
