@@ -1,5 +1,5 @@
 <header
-	class="relative h-screen w-full bg-cover bg-fixed bg-center text-foreground bg-[image:var(--background-image-header-bg)]"
+	class="relative h-screen w-full bg-[image:var(--background-image-header-bg)] bg-cover bg-fixed bg-center text-foreground"
 >
 	<div
 		class="absolute bottom-0 left-0 z-100 flex h-full w-full flex-col justify-center bg-linear-to-b from-0% via-olive-haze-500 via-65% to-olive-haze-500 py-10 pr-10 pl-10 *:text-center *:*:text-shadow-olive-haze-800 lg:top-0 lg:bg-linear-to-l lg:py-30 lg:pr-0 *:lg:w-4/10 *:lg:text-left"
@@ -21,9 +21,4 @@
 			<p>by <b>CS 132 25.1 WFV Group 1</b></p>
 		</div>
 	</div>
-
-	<div
-		class="absolute top-0 right-0 -z-100 flex h-screen items-center justify-end bg-cover bg-fixed bg-center"
-		style="background-image: url('../../lib/assets/flood.jpg')"
-	></div>
 </header>

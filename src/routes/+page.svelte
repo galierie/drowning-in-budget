@@ -92,7 +92,10 @@
 		</div>
 	</section>
 
-	<section class="my-18">
+	<section
+		class="my-18 h-screen bg-cover bg-fixed bg-center"
+		style="background-image: url('../../src/lib/assets/parallax1.jpg')"
+	>
 		<h2 class="mb-6 text-center font-specialelite text-4xl font-bold">Hypotheses</h2>
 		<ul class="flex flex-wrap items-center justify-center text-center">
 			<ListIcon icon="material-symbols:chart-data-outline">
