@@ -1,6 +1,7 @@
 @theme inline {
 	--font-lora: Lora;
 	--font-specialelite: SpecialElite;
+	--background-image-header-bg: url('$lib/assets/flood.jpg');
 	--color-rhino-50: #f2f6fc;
 	--color-rhino-100: #e1ebf8;
 	--color-rhino-200: #cadcf3;

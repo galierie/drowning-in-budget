@@ -1,6 +1,5 @@
 <header
-	class="relative h-screen w-full bg-cover bg-fixed bg-center text-foreground lg:bg-linear-to-l"
-	style="background-image: url('../../src/lib/assets/flood.jpg')"
+	class="relative h-screen w-full bg-cover bg-fixed bg-center text-foreground bg-[image:var(--background-image-header-bg)]"
 >
 	<div
 		class="absolute bottom-0 left-0 z-100 flex h-full w-full flex-col justify-center bg-linear-to-b from-0% via-olive-haze-500 via-65% to-olive-haze-500 py-10 pr-10 pl-10 *:text-center *:*:text-shadow-olive-haze-800 lg:top-0 lg:bg-linear-to-l lg:py-30 lg:pr-0 *:lg:w-4/10 *:lg:text-left"
