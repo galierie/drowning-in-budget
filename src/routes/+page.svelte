@@ -20,7 +20,7 @@
 
 <section class="my-18">
 	<h2 class="mb-6 text-center font-specialelite text-4xl font-bold">Research Questions/Problems</h2>
-	<ul class="items-center justify-center text-center lg:flex">
+	<ul class="flex flex-col items-center justify-center text-center lg:flex lg:flex-row">
 		<ListIcon icon="material-symbols:flood-outline">
 			What provinces and regions have the most flood control projects in terms of number and cost?
 		</ListIcon>
@@ -33,7 +33,7 @@
 
 <section class="my-18">
 	<h2 class="mb-6 text-center font-specialelite text-4xl font-bold">Objectives</h2>
-	<ul class="items-center justify-center text-center lg:flex">
+	<ul class="flex flex-col items-center justify-center text-center lg:flex lg:flex-row">
 		<ListIcon icon="material-symbols:location-on-outline">
 			Identify areas in which flood control projects are concentrated in terms of number and budget
 		</ListIcon>
@@ -91,7 +91,7 @@
 
 <section class="my-18">
 	<h2 class="mb-6 text-center font-specialelite text-4xl font-bold">Hypotheses</h2>
-	<ul class="items-center justify-center text-center lg:flex">
+	<ul class="flex flex-col items-center justify-center text-center lg:flex lg:flex-row">
 		<ListIcon icon="material-symbols:chart-data-outline">
 			Null Hypothesis: There is a positive correlation between damage reduction and flood control
 			budget allocated per province.
