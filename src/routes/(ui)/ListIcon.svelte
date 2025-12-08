@@ -11,7 +11,7 @@
 </script>
 
 <li
-	class="m-5 flex h-full md:w-175 flex-col items-center rounded-lg border-2 border-rhino-500 shadow-lg px-5 py-10 text-2xl"
+	class="m-5 flex h-full flex-col items-center rounded-lg border-2 border-rhino-500 px-5 py-10 text-2xl shadow-lg md:w-175"
 >
 	<Icon {icon} class="h-50 w-50 text-rhino-500" />
 	<p class="mt-4 flex grow items-center justify-center">
