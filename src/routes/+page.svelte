@@ -15,7 +15,7 @@
 	import hypothesis from '$lib/assets/graphs/hypothesis.png';
 
 	import ListIcon from './(ui)/ListIcon.svelte';
-	import Member from '$lib/features/Member.svelte';
+	import Member from './(ui)/Member.svelte';
 </script>
 
 <section class="my-18">
