@@ -551,7 +551,7 @@
 	<section class="my-18">
 		<h1 class="p-12 text-center font-specialelite text-6xl font-bold">About Us</h1>
 
-		<div class="items-center justify-center lg:flex">
+		<div class="items-center justify-center flex flex-wrap">
 			<Member
 				name="Eriene Galinato"
 				github="galierie"
