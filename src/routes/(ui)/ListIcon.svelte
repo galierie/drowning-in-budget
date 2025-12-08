@@ -11,10 +11,10 @@
 </script>
 
 <li
-	class="mx-5 my-5 flex h-full w-175 flex-col items-center rounded-lg border-2 border-olive-haze-500 px-5 py-10 font-specialelite text-xl"
+	class="m-5 flex h-full md:w-175 flex-col items-center rounded-lg border-2 border-rhino-500 shadow-lg px-5 py-10 text-2xl"
 >
-	<Icon {icon} class="h-50 w-50 rounded-full border-2 border-olive-haze-500 text-olive-haze-500" />
-	<p class="mt-4 flex grow items-center justify-center text-shadow-sm">
+	<Icon {icon} class="h-50 w-50 text-rhino-500" />
+	<p class="mt-4 flex grow items-center justify-center">
 		{@render children()}
 	</p>
 </li>
