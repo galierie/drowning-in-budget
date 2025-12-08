@@ -1,0 +1,31 @@
+@layer base {
+	@font-face {
+		font-family: Lora;
+		font-style: normal;
+		font-weight: 400;
+		font-display: swap;
+		src:
+			local('Lora'),
+			url('$lib/fonts/Lora/Regular.ttf') format('truetype');
+	}
+
+	@font-face {
+		font-family: Lora;
+		font-style: normal;
+		font-weight: 550;
+		font-display: swap;
+		src:
+			local('Lora'),
+			url('$lib/fonts/Lora/SemiBold.ttf') format('truetype');
+	}
+
+	@font-face {
+		font-family: Lora;
+		font-style: normal;
+		font-weight: 700;
+		font-display: swap;
+		src:
+			local('Lora'),
+			url('$lib/fonts/Lora/Bold.ttf') format('truetype');
+	}
+}
