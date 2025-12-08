@@ -13,6 +13,6 @@
 
 <Header />
 
-<main class="mx-10 py-10">
+<main class="py-10">
 	{@render children?.()}
 </main>
