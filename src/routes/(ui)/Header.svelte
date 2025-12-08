@@ -1,12 +1,9 @@
-<script>
-	import flood from '$lib/assets/flood.jpg';
-</script>
-
 <header
-	class="relative h-screen w-full bg-linear-to-b from-0% via-olive-haze-500 via-65% to-olive-haze-500 text-foreground lg:bg-linear-to-l"
+	class="relative h-screen w-full bg-cover bg-fixed bg-center text-foreground lg:bg-linear-to-l"
+	style="background-image: url('../../src/lib/assets/flood.jpg')"
 >
 	<div
-		class="absolute bottom-0 left-0 z-100 flex h-full w-full flex-col justify-center py-10 pr-10 pl-10 *:text-center *:*:text-shadow-olive-haze-800 lg:top-0 lg:w-5/10 lg:py-30 lg:pr-0 *:lg:text-left"
+		class="absolute bottom-0 left-0 z-100 flex h-full w-full flex-col justify-center bg-linear-to-b from-0% via-olive-haze-500 via-65% to-olive-haze-500 py-10 pr-10 pl-10 *:text-center *:*:text-shadow-olive-haze-800 lg:top-0 lg:bg-linear-to-l lg:py-30 lg:pr-0 *:lg:w-4/10 *:lg:text-left"
 	>
 		<div class="mb-4 font-specialelite">
 			<p class="mb-2 text-2xl text-shadow-sm lg:text-3xl">Drowning in Budget:</p>
@@ -26,11 +23,8 @@
 		</div>
 	</div>
 
-	<div class="absolute top-0 right-0 -z-100 flex h-full items-center justify-end">
-		<img
-			src={flood}
-			alt="child swimming in floodwaters"
-			class="h-full object-cover object-center"
-		/>
-	</div>
+	<div
+		class="absolute top-0 right-0 -z-100 flex h-screen items-center justify-end bg-cover bg-fixed bg-center"
+		style="background-image: url('../../lib/assets/flood.jpg')"
+	></div>
 </header>
