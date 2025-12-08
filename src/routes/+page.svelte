@@ -353,7 +353,7 @@
 			What provinces and regions have the most flood control projects in terms of number and cost?
 		</p>
 		<br />
-		<p class="px-0 text-2xl md:px-15 lg:px-25">
+		<p class="px-0 text-center text-2xl md:px-15 lg:px-25">
 			Bar charts were made to display which provinces and regions had the most flood control
 			projects in terms of number and cost.
 		</p>
@@ -422,7 +422,7 @@
 			casualties, injuries, and infrastructure damage, caused by flooding?
 		</p>
 		<br />
-		<p class="px-0 text-2xl md:px-15 lg:px-25">
+		<p class="px-0 text-center text-2xl md:px-15 lg:px-25">
 			A scatter plot was created to compare casualties, infrastructure damage, and the cumulative
 			budget which has been allocated to each province, with each circle representing one province,
 			and the size of the circle representing casualties.
