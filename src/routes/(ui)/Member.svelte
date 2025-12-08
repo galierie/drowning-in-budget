@@ -4,7 +4,7 @@
 </script>
 
 <div
-	class="m-5 flex w-300 flex-col justify-center rounded-lg border-2 border-rhino-500 px-5 py-10 shadow-lg"
+	class="m-5 flex flex-col justify-center rounded-lg border-2 border-rhino-500 px-5 py-10 shadow-lg lg:w-300"
 >
 	<p class="text-center">{name}</p>
 	<div class="flex items-center justify-center">
