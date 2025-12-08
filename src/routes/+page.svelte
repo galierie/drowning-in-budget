@@ -1,12 +1,12 @@
 <script>
 	import { asset } from '$app/paths';
 
-	import regionProjects from '$lib/assets/graphs/viz1 (0).png';
-	import provinceProjects from '$lib/assets/graphs/viz1 (1).png';
-	import regionProjectCosts from '$lib/assets/graphs/viz1 (2).png';
-	import provinceProjectCosts from '$lib/assets/graphs/viz1 (3).png';
+	import regionProjects from '$lib/assets/graphs/viz1 (0).jpg';
+	import provinceProjects from '$lib/assets/graphs/viz1 (1).jpg';
+	import regionProjectCosts from '$lib/assets/graphs/viz1 (2).jpg';
+	import provinceProjectCosts from '$lib/assets/graphs/viz1 (3).jpg';
 
-	import budgetCasualtyDamage from '$lib/assets/graphs/viz2.png';
+	import budgetCasualtyDamage from '$lib/assets/graphs/viz2.jpg';
 
 	import nutshellDamage from '$lib/assets/graphs/nutshell_damage.jpg';
 	import nutshellBudget from '$lib/assets/graphs/nutshell_budget.jpg';
