@@ -1,0 +1,11 @@
+@layer base {
+	@font-face {
+		font-family: SpecialElite;
+		font-style: normal;
+		font-weight: 400;
+		font-display: swap;
+		src:
+			local('SpecialElite'),
+			url('$lib/fonts/SpecialElite/Regular.ttf') format('truetype');
+	}
+}
